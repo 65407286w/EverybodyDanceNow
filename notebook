@@ -7,3 +7,14 @@ ython train_fullts.py \
 > --no_flip \
 > --tf_log \
 > --label_nc 6
+
+
+['train_fullts.py', 
+'--name','MY_MODEL_NAME_global',
+'--dataroot','/media/shifu/0AD910920AD91092/dance_data/subject1/train',
+'--checkpoints_dir','WHERE_TO_SAVE_CHECKPOINTS',
+'--loadSize','512',
+'--no_instance',
+'--no_flip',
+'--tf_log',
+'--label_nc','6']
